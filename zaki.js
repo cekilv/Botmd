@@ -305,7 +305,6 @@ return zaki.sendMessage(from, { document: await getBuffer(url), mimetype: mime, 
          zaki.updateBlockStatus(from,"block")
 }
 
-
  if (!m.message)
         return
     this.spam = this.spam ? this.spam : {}
